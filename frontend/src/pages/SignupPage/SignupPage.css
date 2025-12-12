@@ -1,0 +1,125 @@
+.signup-page {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #a3b1c0; 
+  font-family: Arial, sans-serif;
+}
+
+.signup-right-pane {
+  flex: 1;
+  background-color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.signup-center-pane {
+  flex: 2;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.signup-title {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #b65fc4; 
+}
+.signup-social-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+
+.signup-social-row img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.signup-input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.signup-input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.signup-text-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+}
+
+.signup-text-input:focus {
+  border-color: #b65fc4;
+}
+
+.signup-btn {
+  margin-top: 10px;
+  padding: 12px 0;
+  width: 100%;
+  background-color: #b65fc4;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #9c48b0;
+}
+
+.signup-left-pane {
+  flex: 1;
+  background-color: #b65fc4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.signup-left-title {
+  margin: 5px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signup-left-sub {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.signup-left-pane button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: #b65fc4;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-left-pane button:hover {
+  background-color: #e6d7f2;
+}
