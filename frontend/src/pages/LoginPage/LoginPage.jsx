@@ -14,7 +14,6 @@ const LoginPage = () => {
 
     return (
       <div className = "login-page">
-        <div className = "login-left-pane" />
 
         <div className = "login-center-pane">
           <h1 className = "login-title">Login</h1>

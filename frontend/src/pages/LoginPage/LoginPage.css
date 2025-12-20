@@ -6,27 +6,16 @@
   font-family: Arial, sans-serif;
 }
 
-.login-left-pane {
-  flex: 1;
-  background-color: #b65fc4; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
 .login-center-pane {
-  flex: 2;
+  flex: 0 0 65%; 
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .login-title {
@@ -40,7 +29,6 @@
   gap: 15px;
   margin-bottom: 20px;
 }
-
 
 .login-social-row img {
   width: 35px;
@@ -64,6 +52,7 @@
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  background-color: white;
   font-size: 1rem;
   outline: none;
 }

@@ -17,10 +17,8 @@ const SignupPage = () => {
       <div className = "signup-page">
         <div className = "signup-left-pane">
           <h1 className = "signup-left-title">Welcome Back</h1>
-
           <button onClick={() => navigate("/login")}>Sign In</button>
         </div>
-        <div className = "signup-right-pane" />
 
         <div className = "signup-center-pane">
           <h1 className = "signup-title">Sign Up</h1>
